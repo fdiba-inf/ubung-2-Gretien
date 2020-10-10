@@ -15,13 +15,13 @@ public class QuadraticEquation{
       if(D>=0){
        x1 = (-b + Math.sqrt(D))/2*a;
        x2 = (-b - Math.sqrt(D))/2*a;
-        System.out.println(x1 + " ," + x2);
+        System.out.println(x1 + ", " + x2);
       } else{
         System.out.println("Imaginary values");
       }
     }else if(b!=0){
       x1 = (-c)/b;
-      System.out.println("x:" + x1);
+      System.out.println("x: " + x1);
     } else if(c!=0){
       System.out.println("No values");
     } else{
