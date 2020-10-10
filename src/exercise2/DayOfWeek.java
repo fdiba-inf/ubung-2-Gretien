@@ -8,21 +8,21 @@ public class DayOfWeek {
     Scanner input = new Scanner(System.in);
     int number = input.nextInt();
     if(number==1){
-      System.out.println("Day of week:Monday");
+      System.out.println("Day of week: Monday");
       }else if (number==2){
-        System.out.println("Day of week:Tuesday");
+        System.out.println("Day of week: Tuesday");
       } else if(number==3){
-        System.out.println("Day of week:Wednesday");
+        System.out.println("Day of week: Wednesday");
       } else if(number==4){
-        System.out.println("Day of week:Thursday");
+        System.out.println("Day of week: Thursday");
       } else if(number==5){
-        System.out.println("Day of week:Friday");
+        System.out.println("Day of week: Friday");
       } else if(number==6){
-        System.out.println("Day of week:Saturday");
+        System.out.println("Day of week: Saturday");
       } else if(number==7){
-        System.out.println("Day of week:Sunday");
+        System.out.println("Day of week: Sunday");
       } else {
-        System.out.println("Day of week:Invalid day");
+        System.out.println("Day of week: Invalid day");
       }
   }
 
